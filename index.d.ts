@@ -1,5 +1,6 @@
 declare module 'react-native-kakao-links' { 
-  export default RNKakaoLink: {
+  const RNKakaoLink: {
     link(options: Object): Promise<Object>;
   }
+  export default RNKakaoLink;
 }
